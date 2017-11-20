@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+  <HTML>
+    <head>
+      <title>DESNA's WEB</title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+          <div id="wrapper">
+        <div id="header">
+          <img src="images.jpg" alt="header" />
+          <ul id="menu-utama">
+            <li><a href="">Home</a><span>|</span></li>
+            <li><a href="tugas.html">Tugas</a><span>|</span></li>
+            <li><a href="">Tutorial</a><span>|</span></li>
+            <li><a href="">Video</a></li>
+          </ul>
+          <form>
+            <input type="text" name="search" placeholder="Search" required />
+          </form>
+        </div><!-- end header -->
+
+        <div id="daftar-artikel">
+          <div class="artikel">
+              <h2>Form Biodata</h2>
+                  <form action="simpan.html" method="POST" enctype="multipart/form-data">
+                  <table>
+                  <tr>
+                  <td>NIM</td>
+                  <td><input type="text" name="NIM"></td>
+                  </tr>
+                  <tr>
+                  <td>Nama</td>
+                  <td><input type="text" name="Nama"></td>
+                  </tr>
+                  <tr>
+                  <td>Tanggal Lahir</td>
+                  <td><input type="date" name="TTL"></td>
+                  </tr>
+                  <tr>
+                  <td>Alamat</td>
+                  <td><textarea rows="5" cols="20"> </textarea></td>
+                  </tr>
+                  <tr>
+                  <td>Umur</td>
+                  <td><input type="range" name="umur"  value="20" min="0" max="100"></td>
+                  </tr>
+                  <tr>
+                  <td>Warna Favorit</td>
+                  <td><input type="color" name="Warna Favorit"></td>
+                  </tr>
+                  <tr>
+                  <td>Jenis Kelamin</td>
+                  <td><input type="radio" name="Jenis Kelamin" value="Laki-Laki" checked>Laki-Laki</td>
+                  <td><input type="radio" name="Jenis Kelamin" value="perempuan">Perempuan</td>
+                  </tr>
+                  <tr>
+                  <td>Ukuran Kaos</td>
+                  <td>
+                  <select>
+                  <option value="S">S</option>
+                  <option value="M">M</option>
+                  <option value="L">L</option>
+                  <option value="XL">XL</option>
+                  </select>
+                  </td>
+                  </tr>
+      
+                  <tr>
+                  <td></td>
+                  <td><input type="Submit" value="simpan"></td>
+                  </tr>
+                  </table>
+              </form>
+          </div><!-- end artikel -->
+        </div><!-- end daftar-artikel -->
+ 
+        <div id="sidebar">
+          <h2>About</h2>
+          <p>This web dedicated for art. Have fun!</p>
+          <h2>Article by categories</h2>
+         <ul>
+            <li><a href="">Paint</a></li>
+            <li><a href="">Hand Lettering</a></li>
+            <li><a href="">Sketch</a></li>
+            <li><a href="">Inspiration</a></li>
+            <li><a href="">News</a></li>
+          </ul>
+        </div><!-- end sidebar -->
+        <div id="footer">
+          <p>Copyright &copy; 2017<a href="https://www.instagram.com/declightoflife21" title="Desna Nurhayati"> Desna Nurhayati</a></p>
+        </div>
+      </div><!-- end wrapper -->
+    </body>
+  </HTML>
